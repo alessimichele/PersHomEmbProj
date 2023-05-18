@@ -22,3 +22,7 @@ is it tru that PersistenDiagrams($M$) ~ PersistenDiagrams($M''$)?
 Note, if the above mentioned is true, this means that persistent diagrams are insensible to higher dimenisonal embedding. In particular,suppose we have a high dimensional dataset: using its intrinsic dimension, we obtain somehow a new dataset with same "geometrical properties" of the initial one, meaning that the other dimensions where "noise".
 
 Now, we can perform kernelPCA on the initial dataset, projecting onto "principal components"="intrinsic dimension", and study the persistent diagrams of this new "smaller" space.
+
+Scheme:
+
+![](schema.jpeg)
