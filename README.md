@@ -15,7 +15,7 @@ After the following maps
 
 $$ M \xrightarrow{\text{embedding}} M' \xrightarrow{\text{kernelPCA}} M'' $$
 
-is it tru that PersistenDiagrams($M$) ~ PersistenDiagrams($M''$)?
+is it true that PersistenDiagrams($M$) ~ PersistenDiagrams($M''$)?
 
 **Why do we care about this?**
 
