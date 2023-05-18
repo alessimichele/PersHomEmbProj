@@ -31,14 +31,14 @@ Scheme:
 
 Following plot shows persistent diagram in different configuration of noise, with different manifolds. 20 extra dimensions were added in the embedding phase.
 
-![](images/torus_noisefree.jpeg)
+![](images/torus_noisefree.png)
 
-![](images/torus_noise.jpeg)
+![](images/torus_noise.png)
 
-![](images/sphere_noise.jpeg)
+![](images/sphere_noise.png)
 
-![](images/eight_noisefree.jpeg)
+![](images/eight_noisefree.png)
 
-![](images/eight_noise.jpeg)
+![](images/eight_noise.png)
 
-![](images/circle_noise.jpeg)
+![](images/circle_noise.png)
