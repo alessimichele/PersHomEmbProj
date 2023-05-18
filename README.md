@@ -25,4 +25,20 @@ Now, we can perform kernelPCA on the initial dataset, projecting onto "principal
 
 Scheme:
 
-![](schema.jpeg)
+![](images/schema.jpeg)
+
+## Some results
+
+Following plot shows persistent diagram in different configuration of noise, with different manifolds. 20 extra dimensions were added in the embedding phase.
+
+![](images/torus_noisefree.jpeg)
+
+![](images/torus_noise.jpeg)
+
+![](images/sphere_noise.jpeg)
+
+![](images/eight_noisefree.jpeg)
+
+![](images/eight_noise.jpeg)
+
+![](images/circle_noise.jpeg)
