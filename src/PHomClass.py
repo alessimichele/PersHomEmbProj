@@ -58,8 +58,8 @@ class PhomPCA:
         # N: number of dimension to add
         if noise == True:
             noise_data = np.random.uniform(
-                low=self.original_data.min(),
-                high=self.original_data.max(),
+                low=0.1 * self.original_data.min(),
+                high=0.1 * self.original_data.max(),
                 size=(self.n_points, N),
             )
             self.augmented_data = np.c_[self.original_data, noise_data]
