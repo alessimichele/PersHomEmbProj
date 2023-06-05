@@ -28,7 +28,7 @@ Scheme:
 ![](images/schema.jpeg)
 
 ## Some results
-
+The code for the following plots is here [Click here to view the notebook](study_PersHom.ipynb)
 Following plot shows persistent diagram in different configuration of noise, with different manifolds. 20 extra dimensions were added in the embedding phase.
 
 ![](images/torus_noisefree.png)
