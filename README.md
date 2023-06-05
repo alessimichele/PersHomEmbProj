@@ -1,5 +1,5 @@
 # PersHomEmbProj
-Persistent Homology invariance under embedding and projection
+Persistent Homology invariance under embedding and projection.
 
 I try to ask the following.
 Given a dataset $M$, it is well known that it is possible to associate its persistent homology diagrams, say for $H_0$, $H_1$ and $H_2$.
@@ -28,7 +28,7 @@ Scheme:
 ![](images/schema.jpeg)
 
 ## Some results
-The code for the following plots is [here](study_PersHom.ipynb) \
+The code for the following plots is [here](study_PersHom.ipynb). \
 Following plot shows persistent diagram in different configuration of noise, with different manifolds. 20 extra dimensions were added in the embedding phase.
 
 ![](images/torus_noisefree.png)
@@ -48,4 +48,9 @@ Following plot shows persistent diagram in different configuration of noise, wit
 [hyper_sphere.ipynb](hyper_sphere.ipynb): study on lower dimensional homology group of the PCA projection of an hyper-sphere.
 
 
-[example_pers_hom.ipynb](example_pers_hom.ipynb): notebook with many example of `ripser` and `gudhi` libraries to compute persistence homology diagrams and barcodes.
+[example_pers_hom.ipynb](example_pers_hom.ipynb): notebook with many example of `ripser` and `gudhi` libraries to compute persistence homology diagrams and barcodes. It also provides example for using `Kepler Mapper` library to execute mapper algorithm. [This](make_circles_keplermapper_output.html) is an example of the output graph obtained using `Kepler Mapper` library.
+
+[Here](src/) you can find two classes: \
+- [PHomClass.py](src/PHomClass.py) is a class that performs persistent homology-based dimensionality reduction using PCA or kernel PCA. It allows for embedding the data by adding dimensions and reconstructing the data using PCA or kernel PCA. The class also computes the persistence diagrams for both the original and reconstructed data. Finally, it provides methods to visualize the persistence diagrams.
+
+- [ShapeClass.py](src/ShapeClass.py) is a class for shapes generation as point cloud and plotting.
