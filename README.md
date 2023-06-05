@@ -28,7 +28,7 @@ Scheme:
 ![](images/schema.jpeg)
 
 ## Some results
-The code for the following plots is here [Click here to view the notebook](study_PersHom.ipynb)
+The code for the following plots is [here](study_PersHom.ipynb) \
 Following plot shows persistent diagram in different configuration of noise, with different manifolds. 20 extra dimensions were added in the embedding phase.
 
 ![](images/torus_noisefree.png)
@@ -42,3 +42,10 @@ Following plot shows persistent diagram in different configuration of noise, wit
 ![](images/eight_noise.png)
 
 ![](images/circle_noise.png)
+
+
+## Other notebooks in this repository
+[hyper_sphere.ipynb](hyper_sphere.ipynb): study on lower dimensional homology group of the PCA projection of an hyper-sphere.
+
+
+[example_pers_hom.ipynb](example_pers_hom.ipynb): notebook with many example of `ripser` and `gudhi` libraries to compute persistence homology diagrams and barcodes.
